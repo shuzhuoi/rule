@@ -1,0 +1,43 @@
+# NAME: DouYin
+# AUTHOR: shuzhuo
+# REPO: https://github.com/shuzhuoi/rule
+# UPDATED: 2025-11-15 12:02:44
+
+# 抖音主域名：核心服务入口
+HOST-SUFFIX,douyin.com,抖音
+# 抖音图片资源域名
+HOST-SUFFIX,douyinpic.com,抖音
+# 抖音静态资源（如CSS、JS文件）
+HOST-SUFFIX,douyinstatic.com,抖音
+# 抖音内容分发网络（CDN），用于视频、图片等
+HOST-SUFFIX,douyincdn.com,抖音
+# 抖音早期域名，部分服务仍在使用
+HOST-SUFFIX,amemv.com,抖音
+
+# 抖音短链接服务，用于分享跳转
+HOST-SUFFIX,v.douyin.com,抖音
+# 字节跳动短链接服务，抖音链接常用
+HOST-SUFFIX,t.zijieimg.com,抖音
+
+# 抖音视频流媒体CDN（原西瓜视频CDN）
+HOST-SUFFIX,ixigua.com,抖音
+# 字节跳动内容分发网络节点
+HOST-SUFFIX,pstatp.com,抖音
+# 字节跳动海外CDN节点（部分国内内容也会使用
+HOST-SUFFIX,ibytedtos.com,抖音
+# 字节跳动公司主域名，部分基础服务
+HOST-SUFFIX,bytedance.com,抖音
+# 字节跳动图片CDN
+HOST-SUFFIX,byteimg.com,抖音
+# 字节跳动SDK相关域名（如登录分享）
+HOST-SUFFIX,snssdk.com,抖音
+
+# 抖音支付相关接口域名
+HOST-SUFFIX,pay.douyin.com,抖音
+# 抖音支付业务域名
+HOST-SUFFIX,douyinpay.com,抖音
+
+# 泛域名匹配：捕获可能未列出的包含"douyin"关键词的域名
+HOST-KEYWORD,douyin,抖音
+# 泛域名匹配：捕获可能未列出的包含"iesdouyin"关键词的域名（部分上传、互动服务）
+HOST-KEYWORD,iesdouyin,抖音
