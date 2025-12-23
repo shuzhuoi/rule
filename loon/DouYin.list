@@ -1,0 +1,49 @@
+# NAME: DouYin
+# AUTHOR: shuzhuo
+# REPO: https://github.com/shuzhuoi/rule
+# UPDATED: 2025-12-23 (Converted for Loon)
+
+[Rule]
+# 抖音主域名：核心服务入口
+DOMAIN-SUFFIX,douyin.com,抖音
+# 抖音图片资源域名
+DOMAIN-SUFFIX,douyinpic.com,抖音
+# 抖音静态资源（CSS、JS等）
+DOMAIN-SUFFIX,douyinstatic.com,抖音
+# 抖音内容分发网络（CDN）
+DOMAIN-SUFFIX,douyincdn.com,抖音
+# 抖音视频点播服务
+DOMAIN-SUFFIX,douyinvod.com,抖音
+DOMAIN-SUFFIX,idouyinvod.com,抖音
+# 抖音早期域名
+DOMAIN-SUFFIX,amemv.com,抖音
+
+# 字节跳动短链接服务
+DOMAIN-SUFFIX,t.zijieimg.com,抖音
+# 字节跳动API服务
+DOMAIN-SUFFIX,zijieapi.com,抖音
+
+# 抖音视频CDN及相关
+DOMAIN-SUFFIX,ixigua.com,抖音
+DOMAIN-SUFFIX,ixiguavideo.com,抖音
+DOMAIN-SUFFIX,pstatp.com,抖音
+# 字节跳动DNS文档资源
+DOMAIN-SUFFIX,bytednsdoc.com,抖音
+# 抖音CDN节点
+DOMAIN-SUFFIX,zjcdn.com,抖音
+# 字节跳动SDK相关
+DOMAIN-SUFFIX,snssdk.com,抖音
+# 字节跳动公司主域名
+DOMAIN-SUFFIX,bytedance.com,抖音
+# 字节跳动图片CDN
+DOMAIN-SUFFIX,byteimg.com,抖音
+
+# 今日头条主域名（账号体系互通）
+DOMAIN-SUFFIX,toutiao.com,抖音
+
+# 抖音支付业务域名
+DOMAIN-SUFFIX,douyinpay.com,抖音
+
+# 泛域名匹配
+DOMAIN-KEYWORD,douyin,抖音
+DOMAIN-KEYWORD,iesdouyin,抖音
