@@ -1,0 +1,36 @@
+# NAME: DouYin
+# AUTHOR: shuzhuo
+# REPO: https://github.com/shuzhuoi/rule
+# UPDATED: 2026-04-05 10:13:00
+# DOMAIN-SUFFIX: 19
+# DOMAIN-KEYWORD: 2
+# TOTAL: 21
+payload:
+  # 抖音主域名及资源
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,idouyinvod.com
+  - DOMAIN-SUFFIX,amemv.com
+
+  # 字节跳动相关服务
+  - DOMAIN-SUFFIX,t.zijieimg.com
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,ixiguavideo.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,bytednsdoc.com
+  - DOMAIN-SUFFIX,zjcdn.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,bytedance.com
+  - DOMAIN-SUFFIX,byteimg.com
+
+  # 关联业务（头条、支付）
+  - DOMAIN-SUFFIX,toutiao.com
+  - DOMAIN-SUFFIX,douyinpay.com
+
+  # 关键词匹配
+  - DOMAIN-KEYWORD,douyin
+  - DOMAIN-KEYWORD,iesdouyin
